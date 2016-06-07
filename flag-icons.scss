@@ -1,0 +1,32 @@
+/*
+	Name:			Flag Icons (flag-icons)
+	Github URL:		
+	Author:			Alexander Erlandsson (@alexerlandsson)
+	Author URL:		https://alexerlandsson.com
+	
+	Notes:
+	You can use any images you want as long as they are named 
+	after the ISO 3166-1 alpha-2 standard (two-letter country code).
+*/
+
+$image_path: 'flags/';
+$image_size: 32px;
+
+$country_list: ad ae af ag ai al am an ao aq ar as at au aw az ba bb bd be bf bg bh bi bj bm bn bo br bs bt bw by bz ca cd cf cg ch ci ck cl cm cn co cr cu cv cy cz de dj dk dm do dz ec ee eg eh er es et fi fj fm fo fr ga gb gd ge gg gh gi gm gn gp gq gr gt gu gq gy hk hn hr ht hu id ie il im in iq ir is it je jm jo jp ke kg kh ki km kn kp kr kw ky kz la lb lc li lk lr ls lt lu lv ly ma mc md me mg mh mk ml mm mn mo mq mr ms mt mu mv mw mx my mz na nc ne ng ni nl no np nr nz om pa pe pf pg ph pk pl pr ps pt pw py qa re ro rs ru rw sa sb sc sd se sg si sk sl sm sn so sr st sv sy sz tc td tg th tj tl tm tn to tr tt tv tw tz ua ug us uy uz va vc ve vg vi vn vu ws ye za zm zw;
+
+.fi {
+	display: inline-block;
+	width: $image_size;
+	height: $image_size;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	font-style: normal;
+}
+
+@each $country_code in $country_list {
+	.fi-#{$country_code} {
+		background-image: url("#{$image_path}#{$country_code}.png");
+	}
+}
