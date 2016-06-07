@@ -5,9 +5,9 @@ Flag Icons is a CSS framework to use flag icons in web projects.
 Follow these simple steps and you are ready to go in less than one minute!
 
 ### 1. Include the CSS file and flag folder into your project
+Inlcude flags folder and the CSS file into your project. If you want to customize the CSS or are using SCSS in the project, you can import flag-icons.scss and compile into your main CSS file instead.
 
 ### 2. Include the CSS in your HTML files
-You can use the pre compiled CSS file (flag-icons.min.css) or compile flag-icons.scss yourself.
 
 ```html
 <link rel="stylesheet" href="/PATH/flag-icons.min.css">
@@ -27,7 +27,7 @@ If you are using flag-icons in a scss-project you can make some modifications.
 Change `$image_path` to the path where the images ar located.
 
 ### Image Size
-Change `image_size` to the size of the images.
+Change `$image_size` to the size of the images.
 
 ## Flag images
 Included flag images are created by Jonathan Allen and can also be downloaded from: http://365icon.com/icon-styles/ethnic/classic2/. These are free to use for personal and commercial projects.
