@@ -14,7 +14,7 @@ Inlcude the flags folder and the CSS file into your project. If you want to cust
 ```
 
 ### 3. Add icons to your project
-To add a flag to an element, add class `fi` followed by `fi-COUNTRYCODE`. Example:
+To add a flag to an element, add class `fi` followed by `fi-[COUNTRYCODE]`. Example:
 
 ```html
 <i class="fi fi-se"></i>
