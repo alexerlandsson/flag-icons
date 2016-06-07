@@ -4,8 +4,8 @@ Flag Icons is a CSS framework to use flag icons in web projects.
 ## Quick Start
 Follow these simple steps and you are ready to go in less than one minute!
 
-### 1. Include the CSS file and flag folder into your project
-Inlcude flags folder and the CSS file into your project. If you want to customize the CSS or are using SCSS in the project, you can import flag-icons.scss and compile into your main CSS file instead.
+### 1. Include needed files into your project
+Inlcude the flags folder and the CSS file into your project. If you want to customize the CSS or are using SCSS in the project, you can import flag-icons.scss and compile into your main CSS file instead.
 
 ### 2. Include the CSS in your HTML files
 
