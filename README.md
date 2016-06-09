@@ -31,6 +31,7 @@ Change `$image_size` to the size of the images.
 
 ## Flags
 Included flag images are created by Jonathan Allen and can also be downloaded from: http://365icon.com/icon-styles/ethnic/classic2/. These are free to use for personal and commercial projects.
+
 You can use any images you want as long as they are named after the ISO 3166-1 alpha-2 standard (two-letter country code).
 
 ## Browser Compatibility
